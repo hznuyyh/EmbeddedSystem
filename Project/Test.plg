@@ -1,0 +1,983 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\桌面\新建文件夹\Project\Test.uvproj
+Project File Date:  07/25/2012
+
+<h2>Output:</h2>
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c: 0 warnings, 1 error
+compiling misc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(24): error:  #5: cannot open source input file "misc.h": No such file or directory
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:   #include "misc.h"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:                    ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: 0 warnings, 1 error
+compiling stm32f10x_rcc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #20: identifier "__I" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t APBAHBPrescTable[16] = {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:          ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #101: "uint8_t" has already been declared in the current scope
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t APBAHBPrescTable[16] = {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t APBAHBPrescTable[16] = {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(194): error:  #20: identifier "__I" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t ADCPrescTable[4] = {2, 4, 6, 8};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:          ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(194): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t ADCPrescTable[4] = {2, 4, 6, 8};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(270): error:  #147-D: declaration is incompatible with "void RCC_HSEConfig(u32)" (declared at line 254 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_HSEConfig(uint32_t RCC_HSE)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(306): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     __IO uint32_t StartUpCounter = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(306): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     __IO uint32_t StartUpCounter = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                   ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(314): error:  #20: identifier "StartUpCounter" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       StartUpCounter++;  
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(315): error:  #20: identifier "StartUpCounter" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     } while((StartUpCounter != HSE_STARTUP_TIMEOUT) && (HSEStatus == RESET));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(315): error:  #20: identifier "HSE_STARTUP_TIMEOUT" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     } while((StartUpCounter != HSE_STARTUP_TIMEOUT) && (HSEStatus == RESET));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(334): error:  #757: variable "uint8_t" is not a type name
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_AdjustHSICalibrationValue(uint8_t HSICalibrationValue)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(358): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_HSION_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(358): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_HSION_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(378): error:  #147-D: declaration is incompatible with "void RCC_PLLConfig(u32, u32)" (declared at line 258 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_PLLConfig(uint32_t RCC_PLLSource, uint32_t RCC_PLLMul)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(406): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_PLLON_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(406): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_PLLON_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(564): error:  #147-D: declaration is incompatible with "void RCC_SYSCLKConfig(u32)" (declared at line 260 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_SYSCLKConfig(uint32_t RCC_SYSCLKSource)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(587): error:  #757: variable "uint8_t" is not a type name
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   uint8_t RCC_GetSYSCLKSource(void)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(608): error:  #147-D: declaration is incompatible with "void RCC_HCLKConfig(u32)" (declared at line 262 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_HCLKConfig(uint32_t RCC_SYSCLK)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(634): error:  #147-D: declaration is incompatible with "void RCC_PCLK1Config(u32)" (declared at line 263 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_PCLK1Config(uint32_t RCC_HCLK)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(660): error:  #147-D: declaration is incompatible with "void RCC_PCLK2Config(u32)" (declared at line 264 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_PCLK2Config(uint32_t RCC_HCLK)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(700): error:  #757: variable "uint8_t" is not a type name
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_ITConfig(uint8_t RCC_IT, FunctionalState NewState)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(708): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS |= RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(708): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS |= RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(713): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS &= (uint8_t)~RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(713): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS &= (uint8_t)~RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(713): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS &= (uint8_t)~RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                                       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(728): error:  #147-D: declaration is incompatible with "void RCC_USBCLKConfig(u32)" (declared at line 266 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_USBCLKConfig(uint32_t RCC_USBCLKSource)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(733): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CFGR_USBPRE_BB = RCC_USBCLKSource;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 0 warnings, 30 errors
+compiling stm32f10x_flash.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(254): error:  #147-D: declaration is incompatible with "void FLASH_SetLatency(u32)" (declared at line 179 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   void FLASH_SetLatency(uint32_t FLASH_Latency)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(281): error:  #147-D: declaration is incompatible with "void FLASH_HalfCycleAccessCmd(u32)" (declared at line 180 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   void FLASH_HalfCycleAccessCmd(uint32_t FLASH_HalfCycleAccess)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(300): error:  #147-D: declaration is incompatible with "void FLASH_PrefetchBufferCmd(u32)" (declared at line 181 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   void FLASH_PrefetchBufferCmd(uint32_t FLASH_PrefetchBuffer)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(419): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ErasePage(u32)" (declared at line 186 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ErasePage(uint32_t Page_Address)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(559): warning:  #223-D: function "FLASH_WaitForLastBank1Operation" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     status = FLASH_WaitForLastBank1Operation(EraseTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(559): warning:  #188-D: enumerated type mixed with another type
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     status = FLASH_WaitForLastBank1Operation(EraseTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(568): warning:  #188-D: enumerated type mixed with another type
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       status = FLASH_WaitForLastBank1Operation(EraseTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(681): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ProgramWord(u32, u32)" (declared at line 189 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ProgramWord(uint32_t Address, uint32_t Data)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(684): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     __IO uint32_t tmp = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(684): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     __IO uint32_t tmp = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                   ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(812): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     status = FLASH_WaitForLastOperation(ProgramTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                                         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(818): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       FLASH->CR |= CR_PG_Set;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                    ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(820): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = (uint16_t)Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(820): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = (uint16_t)Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(820): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = (uint16_t)Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(822): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       status = FLASH_WaitForLastOperation(ProgramTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                                           ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(828): error:  #20: identifier "tmp" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         tmp = Address + 2;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(830): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         *(__IO uint16_t*) tmp = Data >> 16;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(830): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         *(__IO uint16_t*) tmp = Data >> 16;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                           ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(833): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         status = FLASH_WaitForLastOperation(ProgramTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                                             ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(836): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         FLASH->CR &= CR_PG_Reset;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(841): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         FLASH->CR &= CR_PG_Reset;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(858): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ProgramHalfWord(u32, u16)" (declared at line 190 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ProgramHalfWord(uint32_t Address, uint16_t Data)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(907): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(907): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(907): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(929): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ProgramOptionByteData(u32, u8)" (declared at line 191 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ProgramOptionByteData(uint32_t Address, uint8_t Data)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(943): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(943): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(943): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(975): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_EnableWriteProtection(u32)" (declared at line 192 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_EnableWriteProtection(uint32_t FLASH_Pages)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1216): error:  #147-D: declaration is incompatible with "u32 FLASH_GetUserOptionByte(void)" (declared at line 195 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   uint32_t FLASH_GetUserOptionByte(void)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1228): error:  #147-D: declaration is incompatible with "u32 FLASH_GetWriteProtectionOptionByte(void)" (declared at line 196 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   uint32_t FLASH_GetWriteProtectionOptionByte(void)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 3 warnings, 30 errors
+Target not created
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c: 0 warnings, 1 error
+compiling main.c...
+..\User\main.c(2): warning:  #1-D: last line of file ends without a newline
+..\User\main.c:   #include <stdio.h>
+..\User\main.c:                     ^
+..\User\main.c: ..\User\main.c: 1 warning, 0 errors
+compiling misc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(24): error:  #5: cannot open source input file "misc.h": No such file or directory
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:   #include "misc.h"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:                    ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: 0 warnings, 1 error
+compiling stm32f10x_rcc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #20: identifier "__I" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t APBAHBPrescTable[16] = {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:          ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #101: "uint8_t" has already been declared in the current scope
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t APBAHBPrescTable[16] = {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(193): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t APBAHBPrescTable[16] = {0, 0, 0, 0, 1, 2, 3, 4, 1, 2, 3, 4, 6, 7, 8, 9};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(194): error:  #20: identifier "__I" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t ADCPrescTable[4] = {2, 4, 6, 8};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:          ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(194): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   static __I uint8_t ADCPrescTable[4] = {2, 4, 6, 8};
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(270): error:  #147-D: declaration is incompatible with "void RCC_HSEConfig(u32)" (declared at line 254 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_HSEConfig(uint32_t RCC_HSE)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(306): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     __IO uint32_t StartUpCounter = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(306): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     __IO uint32_t StartUpCounter = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                   ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(314): error:  #20: identifier "StartUpCounter" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       StartUpCounter++;  
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(315): error:  #20: identifier "StartUpCounter" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     } while((StartUpCounter != HSE_STARTUP_TIMEOUT) && (HSEStatus == RESET));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(315): error:  #20: identifier "HSE_STARTUP_TIMEOUT" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     } while((StartUpCounter != HSE_STARTUP_TIMEOUT) && (HSEStatus == RESET));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(334): error:  #757: variable "uint8_t" is not a type name
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_AdjustHSICalibrationValue(uint8_t HSICalibrationValue)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(358): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_HSION_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(358): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_HSION_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(378): error:  #147-D: declaration is incompatible with "void RCC_PLLConfig(u32, u32)" (declared at line 258 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_PLLConfig(uint32_t RCC_PLLSource, uint32_t RCC_PLLMul)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(406): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_PLLON_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(406): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CR_PLLON_BB = (uint32_t)NewState;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(564): error:  #147-D: declaration is incompatible with "void RCC_SYSCLKConfig(u32)" (declared at line 260 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_SYSCLKConfig(uint32_t RCC_SYSCLKSource)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(587): error:  #757: variable "uint8_t" is not a type name
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   uint8_t RCC_GetSYSCLKSource(void)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(608): error:  #147-D: declaration is incompatible with "void RCC_HCLKConfig(u32)" (declared at line 262 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_HCLKConfig(uint32_t RCC_SYSCLK)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(634): error:  #147-D: declaration is incompatible with "void RCC_PCLK1Config(u32)" (declared at line 263 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_PCLK1Config(uint32_t RCC_HCLK)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(660): error:  #147-D: declaration is incompatible with "void RCC_PCLK2Config(u32)" (declared at line 264 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_PCLK2Config(uint32_t RCC_HCLK)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(700): error:  #757: variable "uint8_t" is not a type name
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_ITConfig(uint8_t RCC_IT, FunctionalState NewState)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(708): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS |= RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(708): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS |= RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(713): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS &= (uint8_t)~RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(713): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS &= (uint8_t)~RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(713): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       *(__IO uint8_t *) CIR_BYTE2_ADDRESS &= (uint8_t)~RCC_IT;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:                                                       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(728): error:  #147-D: declaration is incompatible with "void RCC_USBCLKConfig(u32)" (declared at line 266 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:   void RCC_USBCLKConfig(uint32_t RCC_USBCLKSource)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(733): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     *(__IO uint32_t *) CFGR_USBPRE_BB = RCC_USBCLKSource;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:       ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 0 warnings, 30 errors
+compiling stm32f10x_flash.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(254): error:  #147-D: declaration is incompatible with "void FLASH_SetLatency(u32)" (declared at line 179 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   void FLASH_SetLatency(uint32_t FLASH_Latency)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(281): error:  #147-D: declaration is incompatible with "void FLASH_HalfCycleAccessCmd(u32)" (declared at line 180 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   void FLASH_HalfCycleAccessCmd(uint32_t FLASH_HalfCycleAccess)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(300): error:  #147-D: declaration is incompatible with "void FLASH_PrefetchBufferCmd(u32)" (declared at line 181 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   void FLASH_PrefetchBufferCmd(uint32_t FLASH_PrefetchBuffer)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(419): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ErasePage(u32)" (declared at line 186 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ErasePage(uint32_t Page_Address)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(559): warning:  #223-D: function "FLASH_WaitForLastBank1Operation" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     status = FLASH_WaitForLastBank1Operation(EraseTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(559): warning:  #188-D: enumerated type mixed with another type
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     status = FLASH_WaitForLastBank1Operation(EraseTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(568): warning:  #188-D: enumerated type mixed with another type
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       status = FLASH_WaitForLastBank1Operation(EraseTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(681): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ProgramWord(u32, u32)" (declared at line 189 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ProgramWord(uint32_t Address, uint32_t Data)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(684): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     __IO uint32_t tmp = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(684): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     __IO uint32_t tmp = 0;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                   ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(812): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     status = FLASH_WaitForLastOperation(ProgramTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                                         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(818): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       FLASH->CR |= CR_PG_Set;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                    ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(820): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = (uint16_t)Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(820): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = (uint16_t)Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(820): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = (uint16_t)Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(822): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       status = FLASH_WaitForLastOperation(ProgramTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                                           ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(828): error:  #20: identifier "tmp" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         tmp = Address + 2;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(830): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         *(__IO uint16_t*) tmp = Data >> 16;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(830): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         *(__IO uint16_t*) tmp = Data >> 16;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                           ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(833): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         status = FLASH_WaitForLastOperation(ProgramTimeout);
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                                             ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(836): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         FLASH->CR &= CR_PG_Reset;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(841): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         FLASH->CR &= CR_PG_Reset;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                      ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(858): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ProgramHalfWord(u32, u16)" (declared at line 190 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ProgramHalfWord(uint32_t Address, uint16_t Data)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(907): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(907): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(907): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(929): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_ProgramOptionByteData(u32, u8)" (declared at line 191 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_ProgramOptionByteData(uint32_t Address, uint8_t Data)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(943): error:  #20: identifier "__IO" is undefined
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:         ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(943): error:  #18: expected a ")"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:              ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(943): error:  #65: expected a ";"
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:       *(__IO uint16_t*)Address = Data;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                        ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(975): error:  #147-D: declaration is incompatible with "FLASH_Status FLASH_EnableWriteProtection(u32)" (declared at line 192 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   FLASH_Status FLASH_EnableWriteProtection(uint32_t FLASH_Pages)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:                ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1216): error:  #147-D: declaration is incompatible with "u32 FLASH_GetUserOptionByte(void)" (declared at line 195 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   uint32_t FLASH_GetUserOptionByte(void)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1228): error:  #147-D: declaration is incompatible with "u32 FLASH_GetWriteProtectionOptionByte(void)" (declared at line 196 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_flash.h")
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:   uint32_t FLASH_GetWriteProtectionOptionByte(void)
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:            ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 3 warnings, 30 errors
+Target not created
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c: 0 warnings, 1 error
+compiling main.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\User\main.c: 0 warnings, 1 error
+compiling misc.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: 0 warnings, 1 error
+compiling stm32f10x_rcc.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 0 warnings, 1 error
+compiling stm32f10x_flash.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 0 warnings, 1 error
+Target not created
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c: 0 warnings, 1 error
+compiling main.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\User\main.c: 0 warnings, 1 error
+compiling misc.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: 0 warnings, 1 error
+compiling stm32f10x_rcc.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 0 warnings, 1 error
+compiling stm32f10x_flash.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 0 warnings, 1 error
+Target not created
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c: 0 warnings, 1 error
+compiling main.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\User\main.c: 0 warnings, 1 error
+compiling misc.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: 0 warnings, 1 error
+compiling stm32f10x_rcc.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 0 warnings, 1 error
+compiling stm32f10x_flash.c...
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:    #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h:     ^
+..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 0 warnings, 1 error
+Target not created
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling main.c...
+..\User\main.c(12): warning:  #1-D: last line of file ends without a newline
+..\User\main.c:   }
+..\User\main.c:    ^
+..\User\main.c: ..\User\main.c: 1 warning, 0 errors
+compiling misc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(99): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     assert_param(IS_NVIC_PRIORITY_GROUP(NVIC_PriorityGroup));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(117): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     assert_param(IS_FUNCTIONAL_STATE(NVIC_InitStruct->NVIC_IRQChannelCmd));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(159): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     assert_param(IS_NVIC_VECTTAB(NVIC_VectTab));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(178): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     assert_param(IS_NVIC_LP(LowPowerMode));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c(202): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     assert_param(IS_SYSTICK_CLK_SOURCE(SysTick_CLKSource));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: 5 warnings, 0 errors
+compiling stm32f10x_rcc.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(273): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_HSE(RCC_HSE));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(338): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_CALIBRATION_VALUE(HSICalibrationValue));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(357): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(383): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_PLL_SOURCE(RCC_PLLSource));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(404): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(568): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_SYSCLK_SOURCE(RCC_SYSCLKSource));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(612): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_HCLK(RCC_SYSCLK));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(638): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_PCLK(RCC_HCLK));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(664): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_PCLK(RCC_HCLK));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(703): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_IT(RCC_IT));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(731): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_USBCLK_SOURCE(RCC_USBCLKSource));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(770): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_ADCCLK(RCC_PCLK2));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(832): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_LSE(RCC_LSE));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(865): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(882): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_RTCCLK_SOURCE(RCC_RTCCLKSource));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(896): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1067): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_AHB_PERIPH(RCC_AHBPeriph));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1098): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_APB2_PERIPH(RCC_APB2Periph));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1129): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_APB1_PERIPH(RCC_APB1Periph));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1188): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_APB2_PERIPH(RCC_APB2Periph));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1219): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_APB1_PERIPH(RCC_APB1Periph));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1240): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1253): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1285): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_MCO(RCC_MCO));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1332): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_FLAG(RCC_FLAG));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1406): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_GET_IT(RCC_IT));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(1451): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     assert_param(IS_RCC_CLEAR_IT(RCC_IT));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 27 warnings, 0 errors
+compiling stm32f10x_flash.c...
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(259): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_LATENCY(FLASH_Latency));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(284): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_HALFCYCLEACCESS_STATE(FLASH_HalfCycleAccess));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(303): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_PREFETCHBUFFER_STATE(FLASH_PrefetchBuffer));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(423): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_ADDRESS(Page_Address));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(687): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_ADDRESS(Address));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(862): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_ADDRESS(Address));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(933): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_OB_DATA_ADDRESS(Address));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(982): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_WRPROT_PAGE(FLASH_Pages));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1053): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1123): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_OB_IWDG_SOURCE(OB_IWDG));
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1325): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_IT(FLASH_IT)); 
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1402): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_GET_FLAG(FLASH_FLAG)) ;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(1462): warning:  #223-D: function "assert_param" declared implicitly
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     assert_param(IS_FLASH_CLEAR_FLAG(FLASH_FLAG)) ;
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c:     ^
+..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 13 warnings, 0 errors
+linking...
+.\Obj\Test.axf: Error: L6218E: Undefined symbol assert_param (referred from misc.o).
+.\Obj\Test.axf: Not enough information to list image symbols.
+.\Obj\Test.axf: Not enough information to list the image map.
+.\Obj\Test.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(25): error:  #256: invalid redeclaration of type name "s32" (declared at line 487 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(29): error:  #256: invalid redeclaration of type name "sc32" (declared at line 491 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(33): error:  #256: invalid redeclaration of type name "vs32" (declared at line 495 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(37): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 499 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(41): error:  #256: invalid redeclaration of type name "u32" (declared at line 503 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(45): error:  #256: invalid redeclaration of type name "uc32" (declared at line 507 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(49): error:  #256: invalid redeclaration of type name "vu32" (declared at line 511 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(53): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 515 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "RESET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "SET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "DISABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "ENABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 521 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "ERROR" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "SUCCESS" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 524 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 528 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c: 1 warning, 18 errors
+compiling main.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(25): error:  #256: invalid redeclaration of type name "s32" (declared at line 487 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(29): error:  #256: invalid redeclaration of type name "sc32" (declared at line 491 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(33): error:  #256: invalid redeclaration of type name "vs32" (declared at line 495 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(37): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 499 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(41): error:  #256: invalid redeclaration of type name "u32" (declared at line 503 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(45): error:  #256: invalid redeclaration of type name "uc32" (declared at line 507 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(49): error:  #256: invalid redeclaration of type name "vu32" (declared at line 511 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(53): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 515 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "RESET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "SET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "DISABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "ENABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 521 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "ERROR" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "SUCCESS" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 524 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 528 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: ..\User\main.c: 1 warning, 18 errors
+compiling misc.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(25): error:  #256: invalid redeclaration of type name "s32" (declared at line 487 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(29): error:  #256: invalid redeclaration of type name "sc32" (declared at line 491 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(33): error:  #256: invalid redeclaration of type name "vs32" (declared at line 495 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(37): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 499 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(41): error:  #256: invalid redeclaration of type name "u32" (declared at line 503 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(45): error:  #256: invalid redeclaration of type name "uc32" (declared at line 507 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(49): error:  #256: invalid redeclaration of type name "vu32" (declared at line 511 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(53): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 515 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "RESET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "SET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "DISABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "ENABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 521 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "ERROR" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "SUCCESS" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 524 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 528 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c: 1 warning, 18 errors
+compiling stm32f10x_rcc.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(25): error:  #256: invalid redeclaration of type name "s32" (declared at line 487 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(29): error:  #256: invalid redeclaration of type name "sc32" (declared at line 491 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(33): error:  #256: invalid redeclaration of type name "vs32" (declared at line 495 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(37): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 499 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(41): error:  #256: invalid redeclaration of type name "u32" (declared at line 503 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(45): error:  #256: invalid redeclaration of type name "uc32" (declared at line 507 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(49): error:  #256: invalid redeclaration of type name "vu32" (declared at line 511 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(53): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 515 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "RESET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "SET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "DISABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "ENABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 521 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "ERROR" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "SUCCESS" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 524 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 528 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c: 1 warning, 18 errors
+compiling stm32f10x_flash.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(25): error:  #256: invalid redeclaration of type name "s32" (declared at line 487 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  s32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                        ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(29): error:  #256: invalid redeclaration of type name "sc32" (declared at line 491 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef signed long  const sc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(33): error:  #256: invalid redeclaration of type name "vs32" (declared at line 495 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  vs32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(37): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 499 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile signed long  const vsc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                       ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(41): error:  #256: invalid redeclaration of type name "u32" (declared at line 503 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  u32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(45): error:  #256: invalid redeclaration of type name "uc32" (declared at line 507 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef unsigned long  const uc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(49): error:  #256: invalid redeclaration of type name "vu32" (declared at line 511 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  vu32;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                   ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(53): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 515 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef volatile unsigned long  const vuc32;  /* Read Only */
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                         ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "RESET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "SET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                          ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 519 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                      ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "DISABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #101: "ENABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(61): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 521 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "ERROR" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                 ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #101: "SUCCESS" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                            ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(64): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 524 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:   typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h:                                              ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h(147): warning:  #47-D: incompatible redefinition of macro "HSE_Value" (declared at line 528 of "..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:   #define HSE_Value    ((u32)8000000) /* Value of the External oscillator in Hz*/
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h:           ^
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_conf.h: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 1 warning, 18 errors
+Target not created
+Build target 'Test'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_flash.c...
+linking...
+Program Size: Code=612 RO-data=336 RW-data=20 ZI-data=1028  
+FromELF: creating hex file...
+".\Obj\Test.axf" - 0 Error(s), 0 Warning(s).
